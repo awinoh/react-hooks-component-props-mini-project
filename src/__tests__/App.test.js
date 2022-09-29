@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
 import App from "../components/App";
-import Header from "./components/Header"
+import Header from "./components/Header";
 
 test("renders the correct child components", () => {
   const { container } = render(<App />);
